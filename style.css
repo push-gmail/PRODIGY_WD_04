@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(12, 3, 53);
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 2, 23);
+}
+
+.logo {
+    text-align: left;
+    color: white;
+    padding: 50px;
+    font-size: 45px;
+    margin-top: 45px;
+    padding-bottom: -20px;
+    margin-bottom: -10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+nav a:hover,
+nav a .active {
+    color: rgb(0, 85, 255);
+    transition: 0.3s;
+}
+
+section {
+    min-height: 150vh;
+    text-align: center;
+    background-color: rgb(12, 3, 53);
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: -500px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    color: aliceblue;
+    margin: 200px;
+}
+
+.home-content h1 {
+    font-size: 45px;
+}
+
+.home-content h2 {
+    font-size: 58px;
+}
+
+.developer {
+    margin-right: 20px;
+}
+
+.home-content h3 {
+    font-size: 45px;
+}
+
+.home-content span {
+    color: greenyellow;
+}
+
+.images {
+    text-align: right;
+    position: relative;
+    top: -650px;
+    left: -400px;
+    right: 35px;
+}
+
+.images img {
+    border-radius: 15px 15px 15px;
+    box-shadow: 15px 15px 15px 20px rgb(0, 89, 255);
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.image-container i {
+    color: aqua;
+    font-size: 34px;
+    margin-top: -34px;
+    margin-left: 34px;
+    text-align: justify;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+
+.about-me {
+    text-align: justify;
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 350px;
+    top: -100px;
+}
+
+.about-me button {
+    font-size: 23px;
+    border-radius: 10px 10px;
+    background-color: aqua;
+    color: rgb(0, 89, 255);
+}
+
+.image-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.image-box img {
+    border-radius: 70%;
+    margin-left: 400px;
+    margin-top: 30px;
+    box-shadow: 15px 15px 15px 15px rgb(0, 191, 255);
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.container h1 {
+    margin-right: 500px;
+    color: chartreuse;
+    position: relative;
+    top: -650px;
+    font-size: 45px;
+}
+
+.container p {
+    margin-left: 1000px;
+    position: relative;
+    top: -600px;
+    font-size: 34px;
+}
+
+.container button {
+    position: relative;
+    top: -500px;
+    margin-right: 650px;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 54px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 300px;
+}
+
+.container-2 img {
+    box-shadow: 20px 20px 20px aqua;
+}
+
+.container-1 img {
+    box-shadow: 20px 20px 20px aqua;
+}
+
+.projects-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: 300px;
+}
+
+.projects-images img {
+    width: 20%;
+    height: 600px;
+    margin-top: -40px;
+    position: relative;
+    top: -40px;
+    box-shadow: 15px 15px 15px 15px rgb(0, 191, 255);
+    border-radius: 15px 15px 15px;
+}
+
+
+.projects-images a {
+    position: sticky;
+    color: red;
+}
+
+.projects-images i {
+
+    color: red;
+    font-size: 50px;
+    margin-top: 78px;
+}
+
+form {
+    text-align: center;
+    margin-right: 100px;
+}
+
+form input,
+::placeholder {
+    margin-right: 150px;
+    width: 500px;
+    height: 80px;
+    margin-bottom: 20px;
+    font-size: 34px;
+    padding: 10px;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+form textarea {
+    background-color: gray;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+form input[type=submit] {
+    background-color: rgb(12, 3, 53);
+    color: white;
+    box-shadow: 15px 15px 15px 10px aqua;
+}
